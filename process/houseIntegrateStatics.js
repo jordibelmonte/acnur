@@ -54,6 +54,7 @@ function getDocument()
    if(document.getElementById("houseAttendance")){
       createListEngaged(house_statics.least_engaged,list_leastEngaged,'missed_votes','missed_votes_pct')
       createListEngaged(house_statics.most_engaged,list_mostEngaged,'missed_votes','missed_votes_pct')
+      
    } else if (document.getElementById("houseLoyalty")){
       createListEngaged(house_statics.least_engaged,list_leastEngaged,'missed_votes','missed_votes_pct')
       createListEngaged(house_statics.most_engaged,list_mostEngaged,'missed_votes','missed_votes_pct')
